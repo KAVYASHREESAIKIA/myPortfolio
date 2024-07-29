@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kavya's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <!--HEADER DESIGN-->
+    <header class="header" id="header">
+      <a href="#" class="logo"><span class="K">K</span>avya</a>
+
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!--HOME SECTION DESIGN-->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hi,Myself</h3>
+        <h1>Kavyashree Saikia</h1>
+        <h3>And I'm a <span>Frontend Developer</span></h3>
+        <p class="homeabout">
+          Dynamic front-end developer with a keen eye for design and exceptional
+          management skills. Expert in crafting visually stunning and highly
+          intuitive interfaces. Proficient in cutting-edge industry tools and
+          technologies. Committed to delivering outstanding digital experiences
+          that captivate users.
+        </p>
+        <div class="social-media">
+          <a href="mailto:kavyashree0107@gmail.com"
+            ><i class="fa-solid fa-envelope"></i
+          ></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/kavyashree-saikia-25a2a6251/"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+        <a href="images/Kavyashree-Resume.pdf" download class="btn btn2">Download CV</a>
+      </div>
+      <div class="home-img">
+        <img src="images/dp.jpg" alt="" srcset="" class="dp" />
+      </div>
+    </section>
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/dp.jpg" alt="" class="aboutdp" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="subtittle">About Me</h1>
+            <p class="aboutpara">
+              Dynamic front-end developer with a deep passion for design and a
+              keen eye for detail. Skilled in creating visually stunning and
+              intuitive interfaces that captivate users. Proficient in the
+              latest industry tools and technologies, with a proven track record
+              of delivering exceptional digital experiences. Known for
+              transforming complex requirements into seamless and engaging
+              websites. Strong management abilities to oversee projects from
+              concept to completion. Dedicated to pushing the boundaries of
+              innovation and excellence in the IT industry.
+            </p>
+
+            <div class="tab-tittle">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Web Development</span><br />
+                  Web/App development
+                </li>
+
+                <li><span>UI/UI</span><br />Designing Web/App interfaces</li>
+
+                <li><span>Management</span><br /></li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>XYZ</span><br />ABCSDEFGHI</li>
+                <li><span>XYZ</span><br />ABCSDEFGHI</li>
+                <li><span>XYZ</span><br />ABCSDEFGHI</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2022-Current</span><br />Integrated MTech in Software
+                  Engineering(8.81 CGPA Till 4th Sem)
+                </li>
+                <li>
+                  <span>2022</span><br />
+                  12th in Kendriya Vidyalaya(9.18%)
+                </li>
+                <li>
+                  <span>2020</span><br />10th in Kendriya Vidyalaya(9.28%)
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--SERVICES SECTION DESIGN-->
+    <section class="services" id="services">
+      <h2 class="heading">My <span>Services</span></h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <i class="fa-sharp fa-solid fa-code"></i>
+          <h3>Web Development</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia sunt
+            vel tempore accusamus tenetur quod, voluptate eos architecto
+            incidunt voluptatem quibusdam eligendi aperiam magni amet.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class="fa-sharp fa-solid fa-palette"></i>
+          <h3>UI/UX Design</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia sunt
+            vel tempore accusamus tenetur quod, voluptate eos architecto
+            incidunt voluptatem quibusdam eligendi aperiam magni amet.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class="fa-brands fa-android"></i>
+          <h3>Management</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia sunt
+            vel tempore accusamus tenetur quod, voluptate eos architecto
+            incidunt voluptatem quibusdam eligendi aperiam magni amet.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!--portfolio-->
+    <section class="portfolio" id="portfolio">
+      <h1 class="heading">Latest <span>Projects</span></h1>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="images/1.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/2.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/3.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/4.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/5.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/6.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="subtittle">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i>kavyashree0107@gmail.com
+            </p>
+            <p><i class="fa-sharp fa-solid fa-square-phone"></i>9327795489</p>
+            <div class="socialicons">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/kavyashree-saikia-25a2a6251/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+            <a href="images/Kavyashree-Resume.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright Kavya. Made with <i class="fa-solid fa-heart"></i> by Kavya.
+        </p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+
+      var sidemeu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemeu.style.right = "0";
+      }
+
+      function closemenu() {
+        sidemeu.style.right = "-200px";
+      }
+    </script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbx8Hv7W4g44syQNjcECXXqxu39tyNiGSWTNVaEpYkXiC2yKQA9LYTV0mZnU9MrSkuY/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully!";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 3500);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
